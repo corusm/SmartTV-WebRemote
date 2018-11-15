@@ -1,0 +1,18 @@
+{
+  "name": "smarttv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.81.0",
+    "samsung-remote": "^1.4.1",
+    "telegraf": "^3.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "corusm",
+  "license": "ISC"
+}
