@@ -40,3 +40,6 @@ Navigate to the directory where you have installed the bot (where the **index.js
 
 # Have fun!
 Open the Website und the IP of your server and the port you have chosen.
+
+# Help me improving!
+If you have a bug to report or a feature request, don't hesitate to contact me!
