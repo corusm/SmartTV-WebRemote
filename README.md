@@ -13,7 +13,7 @@ sudo apt-get install nodejs && sudo apt-get install npm
 
 then clone the git repos to your Server
 ```
-git clone /myrepo/
+git clone https://github.com/corusm/smarttv.git
 ```
 
 
