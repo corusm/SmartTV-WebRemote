@@ -25,6 +25,12 @@ function connectTV() {
 });
 }
 
+app.post('/turnon', (req, res) => {
+  connectTV();
+  console.log('try to connect');
+})
+
+
 app.post('/source', (req, res) => {
   tv("KEY_SOURCE")
   console.log('is running');
@@ -40,12 +46,6 @@ app.post('/voldown', (req, res) => {
 
 app.post('/info', (req, res) => {
   tv("KEY_INFO")
-})
-
-app.post('/turnoff', (req, res) => {
-  //tv("KEY_POWEROFF")
-  connectTV();
-  console.log('try to connectTV');
 })
 
 app.post('/chup', (req, res) => {

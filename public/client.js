@@ -1,8 +1,8 @@
 console.log('Client-side code running');
 
-const turnoff = document.getElementById('turnoff');
-turnoff.addEventListener('click', function(e) {
-  fetch('/turnoff', {method: 'POST'})
+const turnon = document.getElementById('turnon');
+turnon.addEventListener('click', function(e) {
+  fetch('/turnon', {method: 'POST'})
 });
 
 const source = document.getElementById('source');
