@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^2.2.33",
+    "pug": "^2.0.3",
     "request": "^2.81.0",
     "samsung-remote": "^1.4.1",
     "telegraf": "^3.25.0"

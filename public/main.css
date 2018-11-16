@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 3%;
+}
+
+#header {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+body {
+  background: #f1c40f;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1983DF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 100%;
+  padding: 2%;
+  width: 17%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2%;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+content: '\00bb';  /* CSS Entities. To use HTML Entities, use &#8594;*/
+position: relative;
+  opacity: 0;
+  top: 0;
+  right: -2%;
+  transition: 0.5s;
+}
+button:hover span {
+  padding-right: 2%;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
