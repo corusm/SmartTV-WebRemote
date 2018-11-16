@@ -4,7 +4,7 @@ app.use(express.static('public'));
 
 var fs = require("fs");
 
-app.listen(3000, function () {
+app.listen(getPara("port"), function () {
   console.log('Webserver running!');
 });
 
@@ -13,7 +13,7 @@ const SamsungRemote = require('samsung-remote');
 var remote;
 function connectTV() {
   remote = new SamsungRemote({
-      ip: '192.168.178.79' // required: IP address of your Samsung Smart TV
+      ip: getPara("tvip") // required: IP address of your Samsung Smart TV
   });
   remote.isAlive((err) => {
     if (err) {
@@ -107,7 +107,7 @@ function tv(cmd) {
 }
 
 // getTokens
-function getToken(token) { // searches for token on tokens.json
+function getPara(token) {
       var contents = fs.readFileSync("./tokens.json");
       var jsonContent = JSON.parse(contents); // Parse to String
       return jsonContent[token]
