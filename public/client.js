@@ -25,57 +25,55 @@ info.addEventListener('click', function(e) {
   fetch('/info', {method: 'POST'})
 });
 
-/*
 const chup = document.getElementById('chup');
-info.addEventListener('click', function(e) {
+chup.addEventListener('click', function(e) {
   fetch('/chup', {method: 'POST'})
 });
 
 const chdown = document.getElementById('chdown');
-info.addEventListener('click', function(e) {
+chdown.addEventListener('click', function(e) {
   fetch('/chdown', {method: 'POST'})
 });
 
 const hdmi = document.getElementById('hdmi');
-info.addEventListener('click', function(e) {
+hsmi.addEventListener('click', function(e) {
   fetch('/hdmi', {method: 'POST'})
 });
 
 const tv = document.getElementById('tv');
-info.addEventListener('click', function(e) {
+tv.addEventListener('click', function(e) {
   fetch('/tv', {method: 'POST'})
 });
 
 const up = document.getElementById('up');
-info.addEventListener('click', function(e) {
+up.addEventListener('click', function(e) {
   fetch('/up', {method: 'POST'})
 });
 
 const down = document.getElementById('down');
-info.addEventListener('click', function(e) {
+down.addEventListener('click', function(e) {
   fetch('/down', {method: 'POST'})
 });
 
 const left = document.getElementById('left');
-info.addEventListener('click', function(e) {
+left.addEventListener('click', function(e) {
   fetch('/left', {method: 'POST'})
 });
 
 const right = document.getElementById('right');
-info.addEventListener('click', function(e) {
+right.addEventListener('click', function(e) {
   fetch('/right', {method: 'POST'})
 });
 
 const menu = document.getElementById('menu');
-info.addEventListener('click', function(e) {
+menu.addEventListener('click', function(e) {
   fetch('/menu', {method: 'POST'})
 });
 
 const sleep = document.getElementById('sleep');
-info.addEventListener('click', function(e) {
+sleep.addEventListener('click', function(e) {
   fetch('/sleep', {method: 'POST'})
 });
-*/
 
 /*
 const test = document.getElementById('test');

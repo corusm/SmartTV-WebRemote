@@ -1,19 +1,33 @@
 var express = require('express');
 const app = express();
 app.use(express.static('public'));
+
 var fs = require("fs");
 
 app.listen(3000, function () {
   console.log('Webserver running!');
 });
 
+var status = false;
 const SamsungRemote = require('samsung-remote');
-const remote = new SamsungRemote({
-    ip: getToken("ip")
+var remote;
+function connectTV() {
+  remote = new SamsungRemote({
+      ip: '192.168.178.79' // required: IP address of your Samsung Smart TV
+  });
+  remote.isAlive((err) => {
+    if (err) {
+        console.log('tv off');
+    } else {
+        console.log('TV is ALIVE!');
+        status = true;
+    }
 });
+}
 
 app.post('/source', (req, res) => {
   tv("KEY_SOURCE")
+  console.log('is running');
 })
 
 app.post('/volup', (req, res) => {
@@ -29,10 +43,10 @@ app.post('/info', (req, res) => {
 })
 
 app.post('/turnoff', (req, res) => {
-  tv("KEY_POWEROFF")
+  //tv("KEY_POWEROFF")
+  connectTV();
+  console.log('try to connectTV');
 })
-
-/*
 
 app.post('/chup', (req, res) => {
   tv("KEY_CHUP")
@@ -74,28 +88,22 @@ app.post('/sleep', (req, res) => {
   tv("KEY_SLEEP")
 })
 
-*/
-
-// check if TV is alive (ping)
-remote.isAlive((err) => {
-    if (err) {
-        console.log('tv is offline')
-
-    } else {
-        console.log('Connected to tv!');
-    }
-});
+// FUNCTIONS --------------------------
 
 // tv commands
 function tv(cmd) {
-  remote.send(cmd, (err) => {
+  if (status) {
+    remote.send(cmd, (err) => {
       if (err) {
           throw new Error(err);
       } else {
           // command has been successfully transmitted to tv
           console.log("[OK]: " + cmd)
       }
-  })
+    })
+  } else {
+    console.log('error: can not run command');
+  }
 }
 
 // getTokens
