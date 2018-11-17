@@ -29,88 +29,107 @@ connectTV();
 app.post('/turnon', (req, res) => {
   connectTV();
   console.log('try to connect');
+  res.sendStatus(200);
 })
-
 
 app.post('/source', (req, res) => {
   tv("KEY_SOURCE");
+  res.sendStatus(200);
 })
 
 app.post('/volup', (req, res) => {
-  tv("KEY_VOLUP")
+  tv("KEY_VOLUP");
+  res.sendStatus(200);
 })
 
 app.post('/voldown', (req, res) => {
-  tv("KEY_VOLDOWN")
+  tv("KEY_VOLDOWN");
+  res.sendStatus(200);
 })
 
 app.post('/info', (req, res) => {
-  tv("KEY_INFO")
+  tv("KEY_INFO");
+  res.sendStatus(200);
 })
 
 app.post('/chup', (req, res) => {
-  tv("KEY_CHUP")
+  tv("KEY_CHUP");
+  res.sendStatus(200);
 })
 
 app.post('/chdown', (req, res) => {
-  tv("KEY_CHDOWN")
+  tv("KEY_CHDOWN");
+  res.sendStatus(200);
 })
 
 app.post('/hdmi', (req, res) => {
-  tv("KEY_HDMI")
+  tv("KEY_HDMI");
+  res.sendStatus(200);
 })
 
 app.post('/tv', (req, res) => {
-  tv("KEY_TV")
+  tv("KEY_TV");
+  res.sendStatus(200);
 })
 
 app.post('/up', (req, res) => {
-  tv("KEY_UP")
+  tv("KEY_UP");
+  res.sendStatus(200);
 })
 
 app.post('/down', (req, res) => {
-  tv("KEY_DOWN")
+  tv("KEY_DOWN");
+  res.sendStatus(200);
 })
 
 app.post('/left', (req, res) => {
-  tv("KEY_LEFT")
+  tv("KEY_LEFT");
+  res.sendStatus(200);
 })
 
 app.post('/right', (req, res) => {
-  tv("KEY_RIGHT")
+  tv("KEY_RIGHT");
+  res.sendStatus(200);
 })
 
 app.post('/menu', (req, res) => {
-  tv("KEY_MENU")
+  tv("KEY_MENU");
+  res.sendStatus(200);
 })
 
 app.post('/sleep', (req, res) => {
-  tv("KEY_SLEEP")
+  tv("KEY_SLEEP");
+  res.sendStatus(200);
 })
 
 app.post('/open', (req, res) => {
-  tv("KEY_ENTER")
+  tv("KEY_ENTER");
+  res.sendStatus(200);
 })
-// ------------------
-// NEW COMMANDS
+
 app.post('/tvreturn', (req, res) => {
-  tv("KEY_RETURN")
+  tv("KEY_RETURN");
+  res.sendStatus(200);
 })
 
 app.post('/exit', (req, res) => {
-  tv("KEY_EXIT")
+  tv("KEY_EXIT");
+  res.sendStatus(200);
 })
 
 app.post('/mute', (req, res) => {
-  tv("KEY_MUTE")
+  tv("KEY_MUTE");
+  res.sendStatus(200);
 })
 
 app.post('/contents', (req, res) => {
-  tv("KEY_CONTENTS")
+  tv("KEY_CONTENTS");
+  res.sendStatus(200);
 })
 
 app.post('/turnoff', (req, res) => {
-  tv("KEY_POWEROFF")
+  tv("KEY_POWEROFF");
+  res.sendStatus(200);
 })
 
 // FUNCTIONS --------------------------

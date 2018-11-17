@@ -104,10 +104,3 @@ const turnoff = document.getElementById('turnoff');
 turnoff.addEventListener('click', function(e) {
   fetch('/turnoff', {method: 'POST'})
 });
-
-/*
-const test = document.getElementById('test');
-test.addEventListener('click', function(e) {
-  fetch('/test', {method: 'POST'})
-});
-*/
