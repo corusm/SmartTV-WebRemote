@@ -24,6 +24,7 @@ function connectTV() {
     }
 });
 }
+connectTV();
 
 app.post('/turnon', (req, res) => {
   connectTV();
@@ -106,6 +107,10 @@ app.post('/mute', (req, res) => {
 
 app.post('/contents', (req, res) => {
   tv("KEY_CONTENTS")
+})
+
+app.post('/turnoff', (req, res) => {
+  tv("KEY_POWEROFF")
 })
 
 // FUNCTIONS --------------------------

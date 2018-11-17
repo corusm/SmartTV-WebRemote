@@ -80,7 +80,6 @@ open.addEventListener('click', function(e) {
   fetch('/open', {method: 'POST'})
 });
 
-// NEW ELEMENTS
 const tvreturn = document.getElementById('tvreturn');
 tvreturn.addEventListener('click', function(e) {
   fetch('/tvreturn', {method: 'POST'})
@@ -99,6 +98,11 @@ mute.addEventListener('click', function(e) {
 const contents = document.getElementById('contents');
 contents.addEventListener('click', function(e) {
   fetch('/contents', {method: 'POST'})
+});
+
+const turnoff = document.getElementById('turnoff');
+turnoff.addEventListener('click', function(e) {
+  fetch('/turnoff', {method: 'POST'})
 });
 
 /*

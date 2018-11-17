@@ -22,6 +22,21 @@ body {
   width: 17%;
 }
 
+button.arrow {
+  background-color: purple;
+}
+
+#open {
+  background-color: #168052;
+}
+
+#turnoff {
+  background-color: red;
+  padding: 0.5%;
+  margin: 0.5%;
+  width: 17%;
+}
+
 button {
   display: inline-block;
   background-color: #1983DF;

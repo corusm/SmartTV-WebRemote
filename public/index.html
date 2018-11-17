@@ -6,31 +6,32 @@
     <link rel="stylesheet" href="main.css" type="text/css"> <!-- Verbindung von html file zum Stylesheet -->
   </head>
   <body>
-    <p><span id="header">Smart TV</span> <button id="turnon">connect TV</button></p>
+    <p><span id="header">Smart TV</span> <button id="turnon">reconnect</button><button id="turnoff">turn off</button></p>
     <p id="subheader">TV Remote Menu:</p>
     <div class="allButtons">
+    <button id="tv">tv</button>
+    <button id="hdmi">hdmi</button>
     <button id="source">source</button>
-    <button id="volup">volume +</button>
-    <button id="voldown">volume -</button>
-    <button id="info">info</button>
+    <button id="contents">contents</button>
 
     <button id="chup">ch up</button>
+    <button class="arrow" id="up">▲</button>
     <button id="chdown">ch down</button>
-    <button id="hdmi">hdmi</button>
-    <button id="tv">tv</button>
-    <button id="menu">menu</button>
-    <button id="sleep">sleep</button>
+    <button id="volup">volume +</button>
 
-    <button id="up">up</button>
-    <button id="down">down</button>
-    <button id="left">left</button>
-    <button id="right">right</button>
+    <button class="arrow" id="left">◄</button>
     <button id="open">ok</button>
+    <button class="arrow" id="right">►</button>
+    <button id="voldown">volume -</button>
 
     <button id="tvreturn">return</button>
+    <button class="arrow" id="down">▼</button>
     <button id="exit">exit</button>
+    <button id="menu">menu</button>
+
+    <button id="info">info</button>
     <button id="mute">mute</button>
-    <button id="contents">contents</button>
+    <button id="sleep">sleep</button>
   </div>
   </body>
   <script src="./client.js"></script>
