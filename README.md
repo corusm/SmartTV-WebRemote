@@ -36,10 +36,8 @@ Navigate to the directory where you have installed the bot (where the **index.js
 2. Stop Server: `npm stop`
 3. Test Server: `npm test`
 
-**IMPORTANT:** If you want to run it on port 80 you must run it with root privileges (sudo npm start)!
-
 # Have fun!
-Open the Website und the IP of your server and the port you have chosen.
+Open the Website und the IP of your server and the port you have chosen and press **connect TV** to initialize the connection.
 
 # Help me improving!
 If you have a bug to report or a feature request, don't hesitate to contact me!
