@@ -42,5 +42,6 @@ Open the Website by calling the IP of your server and the port you have chosen. 
 # Help me improving!
 If you have a bug to report or a feature request, don't hesitate to contact me!
 
+
 # Screenshot of the Website
 ![alt text](https://cloud.corusm.de/index.php/apps/files_sharing/publicpreview/sG8z4LGr7ZYBQLt?x=1875&y=589&a=true&file=download.png&scalingup=0)
