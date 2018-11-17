@@ -27,7 +27,7 @@ Add your smartTV IP and the port your webserver should run on to the **tokens.js
 ```
 
 ## Safety
-The Smart TV has been made with thinking about security. Right now it's ment to run in the same network as the TV. I am looking forward to integrate some tunnel service to this server.
+The Smart TV has been made with caring about security. Right now it's ment to run in the same network as the TV. I am looking forward to integrate some tunnel service to this server.
 
 ## Run the Server
 Navigate to the directory where you have installed the bot (where the **index.js** file is located) and run these commands:
