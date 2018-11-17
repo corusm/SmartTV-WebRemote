@@ -32,8 +32,7 @@ app.post('/turnon', (req, res) => {
 
 
 app.post('/source', (req, res) => {
-  tv("KEY_SOURCE")
-  console.log('is running');
+  tv("KEY_SOURCE");
 })
 
 app.post('/volup', (req, res) => {

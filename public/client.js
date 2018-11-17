@@ -36,7 +36,7 @@ chdown.addEventListener('click', function(e) {
 });
 
 const hdmi = document.getElementById('hdmi');
-hsmi.addEventListener('click', function(e) {
+hdmi.addEventListener('click', function(e) {
   fetch('/hdmi', {method: 'POST'})
 });
 
@@ -74,6 +74,7 @@ const sleep = document.getElementById('sleep');
 sleep.addEventListener('click', function(e) {
   fetch('/sleep', {method: 'POST'})
 });
+
 
 /*
 const test = document.getElementById('test');
