@@ -75,10 +75,35 @@ sleep.addEventListener('click', function(e) {
   fetch('/sleep', {method: 'POST'})
 });
 
+const open = document.getElementById('open');
+open.addEventListener('click', function(e) {
+  fetch('/open', {method: 'POST'})
+});
+
+// NEW ELEMENTS
+const tvreturn = document.getElementById('tvreturn');
+tvreturn.addEventListener('click', function(e) {
+  fetch('/tvreturn', {method: 'POST'})
+});
+
+const exit = document.getElementById('exit');
+exit.addEventListener('click', function(e) {
+  fetch('/exit', {method: 'POST'})
+});
+
+const mute = document.getElementById('mute');
+mute.addEventListener('click', function(e) {
+  fetch('/mute', {method: 'POST'})
+});
+
+const contents = document.getElementById('contents');
+contents.addEventListener('click', function(e) {
+  fetch('/contents', {method: 'POST'})
+});
 
 /*
 const test = document.getElementById('test');
-info.addEventListener('click', function(e) {
+test.addEventListener('click', function(e) {
   fetch('/test', {method: 'POST'})
 });
 */

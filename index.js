@@ -87,6 +87,27 @@ app.post('/sleep', (req, res) => {
   tv("KEY_SLEEP")
 })
 
+app.post('/open', (req, res) => {
+  tv("KEY_ENTER")
+})
+// ------------------
+// NEW COMMANDS
+app.post('/tvreturn', (req, res) => {
+  tv("KEY_RETURN")
+})
+
+app.post('/exit', (req, res) => {
+  tv("KEY_EXIT")
+})
+
+app.post('/mute', (req, res) => {
+  tv("KEY_MUTE")
+})
+
+app.post('/contents', (req, res) => {
+  tv("KEY_CONTENTS")
+})
+
 // FUNCTIONS --------------------------
 
 // tv commands
