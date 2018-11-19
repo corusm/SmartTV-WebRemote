@@ -18,7 +18,7 @@ git clone https://github.com/corusm/SmartTV-WebRemote.git
 
 
 ## Add Parameters
-Add your smartTV IP and the port your webserver should run on to the **tokens.json** file
+Add your smartTV IP and the port your webserver should run on to the **config.json** file
 ```
 {
   "tvip": "1.1.1.1",

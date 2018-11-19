@@ -4,11 +4,18 @@ app.use(express.static('public'));
 
 var fs = require("fs");
 
+// Global Variables (is false if TV is offline)
+var status = false;
+
+// Init Winston logger (logger.js)
+var winston = require('./logger.js');
+var logger = winston.logger;
+
 app.listen(getPara("port"), function () {
-  console.log('Webserver running!');
+  logger.log("info", "Webserver is running!");
 });
 
-var status = false;
+// Init TV Remote
 const SamsungRemote = require('samsung-remote');
 var remote;
 function connectTV() {
@@ -17,18 +24,22 @@ function connectTV() {
   });
   remote.isAlive((err) => {
     if (err) {
-        console.log('tv off');
+      logger.log("info", "TV offline");
+      status = false;
     } else {
-        console.log('TV is ALIVE!');
-        status = true;
+      logger.log("info", "Connected to TV");
+      status = true;
     }
 });
 }
 connectTV();
 
+// -------------------
+// HTTP POST REQUESTS
+
 app.post('/turnon', (req, res) => {
   connectTV();
-  console.log('try to connect');
+  logger.log("info", "Connecting...");
   res.sendStatus(200);
 })
 
@@ -130,29 +141,32 @@ app.post('/contents', (req, res) => {
 app.post('/turnoff', (req, res) => {
   tv("KEY_POWEROFF");
   res.sendStatus(200);
+  status = false;
 })
 
 // FUNCTIONS --------------------------
 
-// tv commands
+// Execute TV commands
 function tv(cmd) {
   if (status) {
     remote.send(cmd, (err) => {
       if (err) {
-          throw new Error(err);
+          // Catching error if TV is offline and cmd has been executed
+          logger.log("info", "TV is not online! (ERR)");
+          logger.log("info", err);
       } else {
           // command has been successfully transmitted to tv
-          console.log("[OK]: " + cmd)
+          logger.log("info", cmd + ' has been pressed!');
       }
     })
   } else {
-    console.log('error: can not run command');
+    logger.log("info", "error: can not run command (" + cmd + ")");
   }
 }
 
-// getTokens
+// getConfig of Server
 function getPara(token) {
-      var contents = fs.readFileSync("./tokens.json");
+      var contents = fs.readFileSync("./config.json");
       var jsonContent = JSON.parse(contents); // Parse to String
       return jsonContent[token]
   }

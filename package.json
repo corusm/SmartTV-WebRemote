@@ -9,7 +9,8 @@
     "pug": "^2.0.3",
     "request": "^2.81.0",
     "samsung-remote": "^1.4.1",
-    "telegraf": "^3.25.0"
+    "telegraf": "^3.25.0",
+    "winston": "^3.1.0"
   },
   "devDependencies": {},
   "scripts": {
