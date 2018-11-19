@@ -26,6 +26,10 @@ Add your smartTV IP and the port your webserver should run on to the **config.js
 }
 ```
 
+
+## Log
+Full console log is saved in the **info.log** file
+
 ## Safety
 The Smart TV has been made with caring about security. Right now it's ment to run in the same network as the TV. I am looking forward to integrate some tunnel service to this server.
 
