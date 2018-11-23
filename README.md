@@ -16,6 +16,10 @@ then clone the git repos to your Server
 git clone https://github.com/corusm/SmartTV-WebRemote.git
 ```
 
+## Install Dependencies
+```
+npm install
+```
 
 ## Add Parameters
 Add your smartTV IP and the port your webserver should run on to the **config.json** file
