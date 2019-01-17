@@ -1,23 +1,24 @@
 {
   "name": "smarttv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Made with the [samsung-remote](https://github.com/natalan/samsung-remote) module.",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.16.4",
-    "mongodb": "^2.2.33",
-    "pug": "^2.0.3",
-    "request": "^2.81.0",
-    "samsung-remote": "^1.4.1",
-    "telegraf": "^3.25.0",
-    "winston": "^3.1.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "start": "sudo node index.js",
-    "stop": "pkill -f node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "corusm",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corusm/smarttv.git"
+  },
+  "author": "“Niklas <“dev@corusm.de”>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corusm/smarttv/issues"
+  },
+  "homepage": "https://github.com/corusm/smarttv#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "samsung-remote": "^1.4.1",
+    "winston": "^3.1.0"
+  }
 }
