@@ -49,8 +49,8 @@ app.post('/:data', (req, res) => {
     logger.log("info", "Connecting...");
   } else {
     tv(`KEY_${req.params.data}`);
-    res.sendStatus(200);
   }
+  res.sendStatus(200);
 })
 
 api.post('/:data', (req, res) => {
@@ -60,8 +60,8 @@ api.post('/:data', (req, res) => {
     logger.log("info", "Connecting...");
   } else {
     tv(`KEY_${req.params.data}`);
-    res.sendStatus(200);
   }
+  res.sendStatus(200);
 })
 
 // FUNCTIONS --------------------------
