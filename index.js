@@ -53,7 +53,7 @@ app.post('/:data', (req, res) => {
   }
 })
 
-api.get('/:data', (req, res) => {
+api.post('/:data', (req, res) => {
   let input = req.params.data;
   if (input === 'turnon') {
     connectTV();
