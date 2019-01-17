@@ -1,6 +1,6 @@
 # Samsung Smart TV Remote
 
-Made with the [samsung-remote](https://github.com/natalan/samsung-remote) module.
+Made with the [samsung-remote](https://github.com/natalan/samsung-remote) module. This is a Instruction for using this app either for hosting a website with a tv remote or a solution for conneting the **google home / assistant** to your samsung smart tv and control everything with it.
 
 # Documentation
 
@@ -26,7 +26,8 @@ Add your smartTV IP and the port your webserver should run on to the **config.js
 ```
 {
   "tvip": "1.1.1.1",
-  "port": "3000"
+  "port": "80",
+  "portopen" : "3030"
 }
 ```
 
@@ -44,6 +45,25 @@ Navigate to the directory where you have installed the bot (where the **index.js
 2. Stop Server: `npm stop`
 3. Test Server: `npm test`
 
+## Add it to google assistant
+For adding the TV remote to your google assistant do as following:
+
+1. serveo.net
+```
+ssh -R yourappname:80:localhost:3030 serveo.net
+```
+2. Add commands to [IFTTT](https://ifttt.com) =>
+Domain: https://yourappname.serveo.net/path (paths can be found in /public/client.js)
+### Example:
+```
+fetch('/turnon', {method: 'POST'})
+```
+/turnon => https://yourappname.serveo.net/turnon
+
+### Tutorial IFTTT Setup
+![alt text](https://github.com/corusm/SmartTV-WebRemote/blob/master/recources/tutorial.gif)
+#### Now talk to your google home!
+
 # Have fun!
 Open the Website by calling the IP of your server and the port you have chosen. Then **press connect TV** to initialize the connection.
 
@@ -52,4 +72,4 @@ If you have a bug to report or a feature request, don't hesitate to contact me!
 
 
 # Screenshot of the Website
-![alt text](https://cloud.corusm.de/index.php/apps/files_sharing/publicpreview/sG8z4LGr7ZYBQLt?x=1875&y=589&a=true&file=download.png&scalingup=0)
+![alt text](https://github.com/corusm/SmartTV-WebRemote/blob/master/recources/website.png)
