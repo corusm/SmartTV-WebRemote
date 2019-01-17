@@ -7,100 +7,100 @@ turnon.addEventListener('click', function(e) {
 
 const source = document.getElementById('source');
 source.addEventListener('click', function(e) {
-  fetch('/source', {method: 'POST'})
+  fetch('/SOURCE', {method: 'POST'})
 });
 
 const volup = document.getElementById('volup');
 volup.addEventListener('click', function(e) {
-  fetch('/volup', {method: 'POST'})
+  fetch('/VOLUP', {method: 'POST'})
 });
 
 const voldown = document.getElementById('voldown');
 voldown.addEventListener('click', function(e) {
-  fetch('/voldown', {method: 'POST'})
+  fetch('/VOLDOWN', {method: 'POST'})
 });
 
 const info = document.getElementById('info');
 info.addEventListener('click', function(e) {
-  fetch('/info', {method: 'POST'})
+  fetch('/INFO', {method: 'POST'})
 });
 
 const chup = document.getElementById('chup');
 chup.addEventListener('click', function(e) {
-  fetch('/chup', {method: 'POST'})
+  fetch('/CHUP', {method: 'POST'})
 });
 
 const chdown = document.getElementById('chdown');
 chdown.addEventListener('click', function(e) {
-  fetch('/chdown', {method: 'POST'})
+  fetch('/CHDOWN', {method: 'POST'})
 });
 
 const hdmi = document.getElementById('hdmi');
 hdmi.addEventListener('click', function(e) {
-  fetch('/hdmi', {method: 'POST'})
+  fetch('/HDMI', {method: 'POST'})
 });
 
 const tv = document.getElementById('tv');
 tv.addEventListener('click', function(e) {
-  fetch('/tv', {method: 'POST'})
+  fetch('/TV', {method: 'POST'})
 });
 
 const up = document.getElementById('up');
 up.addEventListener('click', function(e) {
-  fetch('/up', {method: 'POST'})
+  fetch('/UP', {method: 'POST'})
 });
 
 const down = document.getElementById('down');
 down.addEventListener('click', function(e) {
-  fetch('/down', {method: 'POST'})
+  fetch('/DOWN', {method: 'POST'})
 });
 
 const left = document.getElementById('left');
 left.addEventListener('click', function(e) {
-  fetch('/left', {method: 'POST'})
+  fetch('/LEFT', {method: 'POST'})
 });
 
 const right = document.getElementById('right');
 right.addEventListener('click', function(e) {
-  fetch('/right', {method: 'POST'})
+  fetch('/RIGHT', {method: 'POST'})
 });
 
 const menu = document.getElementById('menu');
 menu.addEventListener('click', function(e) {
-  fetch('/menu', {method: 'POST'})
+  fetch('/MENU', {method: 'POST'})
 });
 
 const sleep = document.getElementById('sleep');
 sleep.addEventListener('click', function(e) {
-  fetch('/sleep', {method: 'POST'})
+  fetch('/SLEEP', {method: 'POST'})
 });
 
 const open = document.getElementById('open');
 open.addEventListener('click', function(e) {
-  fetch('/open', {method: 'POST'})
+  fetch('/ENTER', {method: 'POST'})
 });
 
 const tvreturn = document.getElementById('tvreturn');
 tvreturn.addEventListener('click', function(e) {
-  fetch('/tvreturn', {method: 'POST'})
+  fetch('/RETURN', {method: 'POST'})
 });
 
 const exit = document.getElementById('exit');
 exit.addEventListener('click', function(e) {
-  fetch('/exit', {method: 'POST'})
+  fetch('/EXIT', {method: 'POST'})
 });
 
 const mute = document.getElementById('mute');
 mute.addEventListener('click', function(e) {
-  fetch('/mute', {method: 'POST'})
+  fetch('/MUTE', {method: 'POST'})
 });
 
 const contents = document.getElementById('contents');
 contents.addEventListener('click', function(e) {
-  fetch('/contents', {method: 'POST'})
+  fetch('/CONTENTS', {method: 'POST'})
 });
 
 const turnoff = document.getElementById('turnoff');
 turnoff.addEventListener('click', function(e) {
-  fetch('/turnoff', {method: 'POST'})
+  fetch('/POWEROFF', {method: 'POST'})
 });

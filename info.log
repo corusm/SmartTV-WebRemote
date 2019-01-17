@@ -1,0 +1,99 @@
+2018-11-23T22:56:37.175Z info: Webserver is running!
+2018-11-23T22:56:37.196Z info: Connected to TV
+2018-11-23T22:56:56.467Z info: Webserver is running!
+2018-11-23T22:56:58.479Z info: TV offline
+2019-01-17T15:47:34.355Z info: Webserver is running!
+2019-01-17T15:47:36.360Z info: TV offline
+2019-01-17T15:47:44.172Z info: error: can not run command (TV)
+2019-01-17T15:47:46.530Z info: error: can not run command (HDMI)
+2019-01-17T15:48:16.381Z info: Webserver is running!
+2019-01-17T15:48:18.139Z info: error: can not run command (KEY_HDMI)
+2019-01-17T15:48:18.382Z info: TV offline
+2019-01-17T15:50:08.020Z info: Webserver is running!
+2019-01-17T15:50:08.027Z info: Connected to TV
+2019-01-17T15:50:10.353Z info: KEY_HDMI has been pressed!
+2019-01-17T15:50:15.613Z info: KEY_HDMI has been pressed!
+2019-01-17T15:50:26.420Z info: KEY_TV has been pressed!
+2019-01-17T15:50:28.805Z info: KEY_HDMI has been pressed!
+2019-01-17T15:50:36.232Z info: KEY_TV has been pressed!
+2019-01-17T15:50:56.620Z info: KEY_POWEROFF has been pressed!
+2019-01-17T15:52:10.601Z info: Webserver is running!
+2019-01-17T15:52:12.612Z info: TV offline
+2019-01-17T15:52:25.295Z info: KEY_TV has been pressed!
+2019-01-17T15:52:25.296Z info: KEY_TV has been pressed!
+2019-01-17T15:52:28.366Z info: KEY_HDMI has been pressed!
+2019-01-17T15:52:28.366Z info: KEY_HDMI has been pressed!
+2019-01-17T15:52:31.438Z info: KEY_TV has been pressed!
+2019-01-17T15:52:58.846Z info: Webserver is running!
+2019-01-17T15:53:00.852Z info: TV offline
+2019-01-17T15:53:01.903Z info: KEY_TV has been pressed!
+2019-01-17T15:53:43.952Z info: Webserver is running!
+2019-01-17T15:53:45.956Z info: TV offline
+2019-01-17T15:53:47.024Z info: KEY_TV has been pressed!
+2019-01-17T15:54:12.019Z info: Webserver is running!
+2019-01-17T15:54:14.020Z info: TV offline
+2019-01-17T15:54:15.087Z info: KEY_TV has been pressed!
+2019-01-17T15:54:15.087Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:54:51.322Z info: Webserver is running!
+2019-01-17T15:54:53.325Z info: TV offline
+2019-01-17T15:54:54.384Z info: KEY_TV has been pressed!
+2019-01-17T15:55:04.322Z info: Webserver is running!
+2019-01-17T15:55:06.323Z info: TV offline
+2019-01-17T15:55:07.376Z info: KEY_TV has been pressed!
+2019-01-17T15:55:14.574Z info: KEY_TV has been pressed!
+2019-01-17T15:55:46.931Z info: Webserver is running!
+2019-01-17T15:55:48.933Z info: TV offline
+2019-01-17T15:55:49.999Z info: KEY_TV has been pressed!
+2019-01-17T15:55:50.000Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:56:25.133Z info: Webserver is running!
+2019-01-17T15:56:27.139Z info: TV offline
+2019-01-17T15:56:28.207Z info: KEY_TV has been pressed!
+2019-01-17T15:56:28.208Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:56:31.278Z info: KEY_HDMI has been pressed!
+2019-01-17T15:56:31.278Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:56:45.289Z info: Webserver is running!
+2019-01-17T15:56:47.295Z info: TV offline
+2019-01-17T15:56:53.327Z info: KEY_TV has been pressed!
+2019-01-17T15:56:53.327Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:57:17.977Z info: Webserver is running!
+2019-01-17T15:57:19.978Z info: TV offline
+2019-01-17T15:57:21.040Z info: KEY_TV has been pressed!
+2019-01-17T15:57:21.040Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:57:23.049Z info: TV offline
+2019-01-17T15:57:41.742Z info: KEY_TV has been pressed!
+2019-01-17T15:57:41.742Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:57:43.750Z info: TV offline
+2019-01-17T15:57:48.494Z info: KEY_TV has been pressed!
+2019-01-17T15:57:48.494Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:57:50.502Z info: TV offline
+2019-01-17T15:57:57.678Z info: KEY_HDMI has been pressed!
+2019-01-17T15:57:57.678Z info: Samsung Remote Client: Device is off or unreachable
+2019-01-17T15:57:59.685Z info: TV offline
+2019-01-17T15:58:07.056Z info: KEY_HDMI has been pressed!
+2019-01-17T15:58:15.592Z info: KEY_TV has been pressed!
+2019-01-17T15:58:18.224Z info: KEY_HDMI has been pressed!
+2019-01-17T15:58:22.784Z info: KEY_TV has been pressed!
+2019-01-17T16:02:57.738Z info: Webserver is running!
+2019-01-17T16:02:57.744Z info: Connected to TV
+2019-01-17T16:03:29.960Z info: Webserver is running!
+2019-01-17T16:03:29.968Z info: Connected to TV
+2019-01-17T16:06:34.138Z info: Webserver is running!
+2019-01-17T16:06:34.140Z info: Api is running!
+2019-01-17T16:06:34.145Z info: Connected to TV
+2019-01-17T16:07:25.111Z info: Webserver is running! :80
+2019-01-17T16:07:25.113Z info: Api is running! :3030
+2019-01-17T16:07:25.118Z info: Connected to TV
+2019-01-17T16:07:54.627Z info: KEY_MUTE has been pressed!
+2019-01-17T16:07:59.367Z info: KEY_MUTE has been pressed!
+2019-01-17T16:08:32.597Z info: Webserver is running! :80
+2019-01-17T16:08:32.599Z info: Api is running! :3030
+2019-01-17T16:08:32.604Z info: Connected to TV
+2019-01-17T16:08:39.878Z info: KEY_MUTE has been pressed!
+2019-01-17T16:08:46.342Z info: KEY_MUTE has been pressed!
+2019-01-17T16:10:28.090Z info: Webserver is running! :80
+2019-01-17T16:10:28.092Z info: Api is running! :3030
+2019-01-17T16:10:28.097Z info: Connected to TV
+2019-01-17T16:10:30.765Z info: KEY_MUTE has been pressed!
+2019-01-17T16:10:32.577Z info: KEY_MUTE has been pressed!
+2019-01-17T16:11:25.077Z info: KEY_MUTE has been pressed!
+2019-01-17T16:11:30.917Z info: KEY_POWEROFF has been pressed!

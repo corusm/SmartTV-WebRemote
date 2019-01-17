@@ -1,4 +1,5 @@
 {
   "tvip": "",
-  "port": ""
+  "port": "80",
+  "portopen": "3030"
 }
