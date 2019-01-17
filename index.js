@@ -1,12 +1,12 @@
 let express = require('express');
 const app = express();
 const api = express();
-app.use(express.static('public'));
+app.use(express.static(`${__dirname}/public`));
 
 let fs = require("fs");
 
 // Init Winston logger (logger.js)
-let winston = require('./logger.js');
+let winston = require(`${__dirname}/logger.js`);
 let logger = winston.logger;
 
 // Files
